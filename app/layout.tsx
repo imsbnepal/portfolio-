@@ -7,9 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Portfolio | Professional Developer',
+  title: 'IMSB Nepal',
   description: 'Explore my portfolio showcasing projects, skills, and professional experience',
-  generator: 'v0.app',
   viewport: {
     width: 'device-width',
     initialScale: 1,
