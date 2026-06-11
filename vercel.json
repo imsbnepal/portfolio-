@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "out",
+  "installCommand": "npm install",
+  "env": {
+    "NEXT_PUBLIC_FORMSPREE_ID": "@formspree_id"
+  }
+}
