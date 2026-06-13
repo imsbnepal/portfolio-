@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Twitter, Mail, ExternalLink, Facebook } from 'lucide-react';
+import AdBanner from './AdBanner';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -178,6 +179,7 @@ const Footer = () => {
 
         </motion.div>
       </div>
+      <AdBanner />
     </footer>
   );
 };

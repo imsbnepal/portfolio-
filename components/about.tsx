@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { skillCategories } from './data/skills';
 import { experiences } from './data/experience';
+import AdBanner from './AdBanner';
 
 const About = () => {
   const containerVariants = {
@@ -75,7 +76,9 @@ const About = () => {
                 className="border-l-2 border-accent pl-6 pb-6"
               >
                 <h4 className="text-xl font-bold text-foreground">{exp.position}</h4>
-                <p className="text-accent font-medium">{exp.company}</p>
+                <a href="https://shristiuniverse.com" target="_blank" rel="noopener noreferrer" className="text-accent font-medium">
+                  {exp.company}
+                </a>
                 <p className="text-sm text-muted-foreground">{exp.duration}</p>
                 <p className="text-muted-foreground mt-2">{exp.description}</p>
               </motion.div>
@@ -130,6 +133,7 @@ const About = () => {
           </div>
         </motion.div>
       </div>
+      <AdBanner />
     </section>
   );
 };
