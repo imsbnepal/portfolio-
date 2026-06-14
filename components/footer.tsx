@@ -119,8 +119,8 @@ const Footer = () => {
             <h4 className="font-bold text-foreground mb-4">Resources</h4>
             <ul className="space-y-2">
               {[
-                { label: 'Blog', href: '#' },
-                { label: 'Resume', href: '#' },
+                { label: 'Blog', href: 'https://medium.com/@sb.mail.np' },
+                { label: 'Resume', href: 'https://imsbnepal.com/sher-bahadur-sunar-cv.pdf' },
                 { label: 'Testimonials', href: '#' },
                 { label: 'Contact', href: '#contact' },
               ].map((link) => (
