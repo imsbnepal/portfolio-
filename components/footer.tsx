@@ -178,8 +178,10 @@ const Footer = () => {
           </p>
 
         </motion.div>
+         <a href="https://portal.prabhuhost.com/aff.php?aff=705&pid=61"><img src="https://4.bp.blogspot.com/-Tr4yWbwPT5c/Xo7nPPdPxhI/AAAAAAAARsk/Bcmp9Yx14rYibKAWNlhWokLB8zsDYBCGwCK4BGAYYCw/s1600/350by350.gif" width="350" height="350" /></a> 
       </div>
       <AdBanner />
+      
     </footer>
   );
 };
