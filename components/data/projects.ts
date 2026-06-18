@@ -30,7 +30,7 @@ export const projects: Project[] = [
     longDescription: "Built a full-stack quiz application that allows users to participate in quizzes, view instant results, and track their performance over time. The application includes user authentication, multiple-choice questions, score calculation, leaderboard functionality, and responsive design. Developed using React, Spring Boot, and Tailwind CSS to deliver a fast and engaging learning experience.",
     image: "/images/project-3.jpg",
     tags: ["Java Spring Boot", "React", "Tailwind CSS"],
-    link: "",
+    link: "https://sunarsherbahadur.com.np",
     github: "https://github.com/imsbnepal",
     featured: true,
   },

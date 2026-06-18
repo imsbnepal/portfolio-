@@ -24,4 +24,5 @@ export const experiences: Experience[] = [
     type: "work",
   },
   
+  
 ];
