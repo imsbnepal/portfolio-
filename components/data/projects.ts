@@ -37,8 +37,8 @@ export const projects: Project[] = [
   {
     id: 4,
     title: "Nepali Romanizer",
-    description: "Java Maven library for bidirectional transliteration between Nepali Unicode and Romanized Nepali.",
-    longDescription: "Developed a Java Maven library that enables seamless transliteration between Nepali Unicode text and Romanized Nepali. The library provides fast, accurate, and lightweight conversion APIs, making it easy to integrate Nepali typing and transliteration capabilities into Spring Boot applications, desktop software, and other Java projects. Designed with Unicode compatibility and developer-friendly APIs for simple integration.",
+    description: "Java Maven library for bidirectional translation between Nepali Unicode and Romanized Nepali.",
+    longDescription: "Developed a Java Maven library that enables seamless translation between Nepali Unicode text and Romanized Nepali. The library provides fast, accurate, and lightweight conversion APIs, making it easy to integrate Nepali typing and translation capabilities into Spring Boot applications, desktop software, and other Java projects. Designed with Unicode compatibility and developer-friendly APIs for simple integration.",
     image: "/images/project-4.jpg",
     tags: ["Java", "Maven Central", "Spring Boot", "Unicode", "Nepali NLP"],
 
