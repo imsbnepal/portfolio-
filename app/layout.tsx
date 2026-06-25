@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
@@ -10,11 +10,14 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'IMSB Nepal',
   description: 'Explore my portfolio showcasing projects, skills, and professional experience',
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 5,
+  metadataBase: new URL('https://imsbnepal.com'),
+  openGraph: {
+    title: 'IMSB Nepal',
+    description: 'Explore my portfolio showcasing projects, skills, and professional experience',
+    url: 'https://imsbnepal.com',
+    siteName: 'IMSB Nepal',
   },
+
   icons: {
     icon: [
       {
@@ -32,6 +35,12 @@ export const metadata: Metadata = {
     ],
     apple: '/apple-icon.png',
   },
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
 }
 
 export default function RootLayout({
