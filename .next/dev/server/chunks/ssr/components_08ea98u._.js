@@ -642,7 +642,22 @@ const experiences = [
             "Improved application performance through code optimization and caching strategies"
         ],
         link: "https://sunarsherbahadur.com.np",
-        type: "work"
+        type: "project"
+    },
+    {
+        id: "3",
+        company: "Gelje Sherpa",
+        position: "Full-Stack Developer",
+        duration: "Completed",
+        description: "Designed and developed a modern, high-performance portfolio website for renowned mountaineer Gelje Sherpa using Next.js, React, and Tailwind CSS. Focused on responsive design, SEO optimization, and an engaging storytelling experience.",
+        achievements: [
+            "Built a fully responsive and visually immersive portfolio website",
+            "Optimized SEO and page performance for faster load times",
+            "Implemented smooth animations and interactive user experience",
+            "Showcased expeditions, achievements, and media in a clean, scalable architecture"
+        ],
+        link: "https://gelje.sunarsherbahadur.com.np/",
+        type: "project"
     }
 ];
 }),

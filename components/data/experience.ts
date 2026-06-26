@@ -6,7 +6,7 @@ export interface Experience {
   description: string;
   achievements: string[];
   link: string;
-  type: "work" | "education";
+  type: string;
 }
 
 export const experiences: Experience[] = [
@@ -22,11 +22,11 @@ export const experiences: Experience[] = [
       "Mentored 5+ junior developers on best practices",
       "Improved application performance through code optimization and caching strategies",
     ],
-    link:"https://shristiuniverse.com",
+    link: "https://shristiuniverse.com",
     type: "work",
   },
   {
-     id: "2",
+    id: "2",
     company: "Quiz Master",
     position: "Full-Stack Developer",
     duration: "Present",
@@ -37,9 +37,24 @@ export const experiences: Experience[] = [
       "Mentored 5+ junior developers on best practices",
       "Improved application performance through code optimization and caching strategies",
     ],
-    link:"https://sunarsherbahadur.com.np",
-    type: "work",
+    link: "https://sunarsherbahadur.com.np",
+    type: "project",
   }
-  
-  
+  , {
+    id: "3",
+    company: "Gelje Sherpa",
+    position: "Full-Stack Developer",
+    duration: "Completed",
+    description:
+      "Designed and developed a modern, high-performance portfolio website for renowned mountaineer Gelje Sherpa using Next.js, React, and Tailwind CSS. Focused on responsive design, SEO optimization, and an engaging storytelling experience.",
+    achievements: [
+      "Built a fully responsive and visually immersive portfolio website",
+      "Optimized SEO and page performance for faster load times",
+      "Implemented smooth animations and interactive user experience",
+      "Showcased expeditions, achievements, and media in a clean, scalable architecture",
+    ],
+    link: "https://gelje.sunarsherbahadur.com.np/",
+    type: "project",
+  }
+
 ];
