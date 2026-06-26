@@ -22,7 +22,7 @@ export const projects: Project[] = [
     github: "https://github.com/imsbnepal",
     featured: true,
   },
- 
+
   {
     id: 3,
     title: "Quiz App",
@@ -64,6 +64,18 @@ export const projects: Project[] = [
     image: "/images/project-2.jpg",
     tags: ["React", "Java Spring Boot", "Firebase", "Tailwind CSS"],
     link: "",
+    github: "https://github.com/imsbnepal",
+    featured: true,
+  }
+  , {
+    id: 6,
+    title: "Gelje Sherpa Portfolio",
+    description: "A modern, high-performance portfolio website showcasing the achievements and expeditions of renowned mountaineer Gelje Sherpa.",
+    longDescription:
+      "Designed and developed a premium portfolio website for Gelje Sherpa with a focus on storytelling, performance, and user experience. The website highlights mountaineering expeditions, achievements, media galleries, and personal milestones through a clean, responsive interface. Built with Next.js, React, Tailwind CSS, and modern web technologies, featuring smooth animations, SEO optimization, fast page loads, and a scalable architecture.",
+    image: "/images/project-3.jpg",
+    tags: ["Next.js", "React", "Tailwind CSS", "TypeScript", "Framer Motion"],
+    link: "https://gelje.sunarsherbahadur.com.np/",
     github: "https://github.com/imsbnepal",
     featured: true,
   }
