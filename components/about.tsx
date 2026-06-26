@@ -76,7 +76,7 @@ const About = () => {
                 className="border-l-2 border-accent pl-6 pb-6"
               >
                 <h4 className="text-xl font-bold text-foreground">{exp.position}</h4>
-                <a href="https://shristiuniverse.com" target="_blank" rel="noopener noreferrer" className="text-accent font-medium">
+                <a href={exp.link} target="_blank" rel="noopener noreferrer" className="text-accent font-medium">
                   {exp.company}
                 </a>
                 <p className="text-sm text-muted-foreground">{exp.duration}</p>

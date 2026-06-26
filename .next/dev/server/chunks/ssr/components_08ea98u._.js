@@ -619,13 +619,29 @@ const experiences = [
         company: "Shirsti Universe.",
         position: "Full-Stack Developer",
         duration: "2021 - Present",
-        description: "Leading development of scalable web applications using React, Next.js, Java, and Spring Boot. Architecting microservices, optimizing performance.",
+        description: "Leading development of scalable  web applications using React, Next.js, Java, and Spring Boot. Architecting microservices, optimizing performance.",
         achievements: [
             "Architected and deployed microservices reducing load times by 40%",
             "Led migration from monolithic to serverless architecture",
             "Mentored 5+ junior developers on best practices",
             "Improved application performance through code optimization and caching strategies"
         ],
+        link: "https://shristiuniverse.com",
+        type: "work"
+    },
+    {
+        id: "2",
+        company: "Quiz Master",
+        position: "Full-Stack Developer",
+        duration: "Present",
+        description: "Leading development of scalable Quiz web applications using React, Next.js, Java, and Spring Boot. Architecting microservices, optimizing performance.",
+        achievements: [
+            "Architected and deployed microservices reducing load times by 40%",
+            "Led migration from monolithic to serverless architecture",
+            "Mentored 5+ junior developers on best practices",
+            "Improved application performance through code optimization and caching strategies"
+        ],
+        link: "https://sunarsherbahadur.com.np",
         type: "work"
     }
 ];
@@ -819,7 +835,7 @@ const About = ()=>{
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                    href: "https://shristiuniverse.com",
+                                                    href: exp.link,
                                                     target: "_blank",
                                                     rel: "noopener noreferrer",
                                                     className: "text-accent font-medium",
@@ -1062,15 +1078,15 @@ const projects = [
             "React",
             "Tailwind CSS"
         ],
-        link: "",
+        link: "https://sunarsherbahadur.com.np",
         github: "https://github.com/imsbnepal",
         featured: true
     },
     {
         id: 4,
         title: "Nepali Romanizer",
-        description: "Java Maven library for bidirectional transliteration between Nepali Unicode and Romanized Nepali.",
-        longDescription: "Developed a Java Maven library that enables seamless transliteration between Nepali Unicode text and Romanized Nepali. The library provides fast, accurate, and lightweight conversion APIs, making it easy to integrate Nepali typing and transliteration capabilities into Spring Boot applications, desktop software, and other Java projects. Designed with Unicode compatibility and developer-friendly APIs for simple integration.",
+        description: "Java Maven library for bidirectional translation between Nepali Unicode and Romanized Nepali.",
+        longDescription: "Developed a Java Maven library that enables seamless translation between Nepali Unicode text and Romanized Nepali. The library provides fast, accurate, and lightweight conversion APIs, making it easy to integrate Nepali typing and translation capabilities into Spring Boot applications, desktop software, and other Java projects. Designed with Unicode compatibility and developer-friendly APIs for simple integration.",
         image: "/images/project-4.jpg",
         tags: [
             "Java",
